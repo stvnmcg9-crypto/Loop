@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.loop" version="1.0.0" name="Loop IPTV" provider-name="stvnmcg9-crypto">
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <summary>IPTV streaming for Kodi</summary>
+    <description>Streams IPTV channels and EPG from a remote source.</description>
+    <platform>all</platform>
+</addon>
